@@ -1,6 +1,6 @@
-package personalizada;
+package personalida_Checada;
 
-public class StringVaziaException extends RuntimeException {
+public class StringVaziaException extends Exception {
     private String nomeDoAtributo;
 
     public StringVaziaException(String nomeDoAtributo) {

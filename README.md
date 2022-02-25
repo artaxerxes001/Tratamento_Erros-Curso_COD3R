@@ -23,7 +23,8 @@ Existem erros que podem fazer o programa não funcionar como deveria ou ate mesm
 Para tratar as exceptions em java utilizamos o try com catch ou finally.
 
 - **try** — em bloco de codigo que pode gerar erro que podemos aplicar alguma forma de tratamento.
-- **catch** - é um bloco de codigo onde vamos capturar e tratar do erro
+- **catch** - é um bloco de codigo onde vamos capturar e tratar do erro.
+- **finally** - é um bloco de codigo que usamos juntamente com o try e o catch, que serve para executar o codigo independentemente de ter houvido um erro e  se o mesmo foi tratado ou não, finally sempre sera executado.   
 
 ### Tipos de Exception
 
@@ -34,3 +35,6 @@ Para tratar as exceptions em java utilizamos o try com catch ou finally.
 ![image.png](./assets/image.png)
 
 - **Não Checada ou não Verificada** — classe RuntimeException e as suas filhas, permitem passar o tratamento do erro adiante para que outro metodo possa tratalo ou se nao querer nao precisa tratar.
+
+
+**OBS**: exceptions podem ser a causa de outras exceptions.

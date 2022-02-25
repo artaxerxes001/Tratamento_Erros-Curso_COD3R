@@ -1,12 +1,13 @@
-package personalizada;
+package personalida_Checada;
 
 import basico.Aluno;
+import personalizada_nao_Checada.NumeroForaIntervaloException;
 
 public class Validar {
     private Validar() {
     }
 
-    public static void aluno(Aluno aluno) {
+    public static void aluno(Aluno aluno) throws StringVaziaException, NumeroForaIntervaloException{
         if (aluno == null) {
             throw new IllegalArgumentException("O aluno esta nulo");
         }

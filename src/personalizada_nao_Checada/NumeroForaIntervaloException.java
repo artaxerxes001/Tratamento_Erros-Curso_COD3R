@@ -1,4 +1,4 @@
-package personalizada;
+package personalizada_nao_Checada;
 @SuppressWarnings("serial")
 public class NumeroForaIntervaloException extends RuntimeException {
 private String nomeDoAtributo;

@@ -1,6 +1,7 @@
-package personalizada;
+package personalida_Checada;
 
 import basico.Aluno;
+import personalizada_nao_Checada.NumeroForaIntervaloException;
 
 public class TesteValidacoes {
     public static void main(String[] args) {
@@ -13,6 +14,12 @@ public class TesteValidacoes {
         } catch (NumeroForaIntervaloException e) {
             System.out.println(e.getMessage());
         }
+        try {
+            Validar.aluno(null);
+        } catch (StringVaziaException e) {
+            e.printStackTrace();
+        }
+
         System.out.println("Fim :)");
     }
 
