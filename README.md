@@ -32,7 +32,7 @@ Para tratar as exceptions em java utilizamos o try com catch ou finally.
 
 - **Checada ou Verificada** — São todas as classes que herdam da class Exception ecepto a RuntimeException. Classes checadas abrigam com que o erro seja tratado no mesmo metodo que a intancio. Quando um metodo não quer tratar um erro e quer passar ele adiante usa o `throws` na assinaturado metodo.
 
-![image.png](./assets/image.png)
+![image.png](.images/image.png)
 
 - **Não Checada ou não Verificada** — classe RuntimeException e as suas filhas, permitem passar o tratamento do erro adiante para que outro metodo possa tratalo ou se nao querer nao precisa tratar.
 
